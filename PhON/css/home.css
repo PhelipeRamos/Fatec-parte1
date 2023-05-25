@@ -1,0 +1,64 @@
+body{
+    overflow: hidden;  
+    display:flex;
+    align-items:center;
+    height:100vh;
+    font-size:50px;
+    justify-content: center;
+    
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    position:fixed;
+    top:35px;
+    left:85%;
+    font-size:15px;
+}
+
+h1 {
+    display:flex;
+    font-size:50px;
+    color:white;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:arial, helvetica, sans-serif;
+    
+}
+
+*{
+    box-sizing:border-box;
+}
+
+.type-animation{
+    animation:cursor 500ms steps(28) infinite normal, type 4s steps(28) 1s normal both;
+}
+
+.line{
+    border-right:2px solid rgba(255,255,255);
+    color:rgba(255,255,255);
+    white-space:nowrap;
+    overflow:hidden;
+    text-align: center;
+}
+
+@keyframes type{
+    from{
+        width:0;
+    }
+    to{
+        width:15em;
+    }
+}
+
+@keyframes cursor{
+    from{
+        border-right-color:rgba(255,255,255);
+    }
+    to{
+        border-right-color:transparent;
+    }
+}

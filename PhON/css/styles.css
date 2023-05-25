@@ -1,7 +1,7 @@
 body {
     background: #000000;
     margin:0;
-}   
+}
 
 nav {
     display: flex;
@@ -58,7 +58,6 @@ nav a:hover::before {
     background-clip:text;
     color:transparent;
     }
-
 
 .container{
     width:100px;
@@ -170,7 +169,6 @@ nav a:hover::before {
     color: white;
   }
 
-
   .imgthree {
     position:fixed;
     top:50%;
@@ -192,11 +190,6 @@ nav a:hover::before {
 .imgone .imgthree .imgfour {
 background-color: yellow;
 }
-
-
-
-
-
 
 .pbottom {
     width:165px;
