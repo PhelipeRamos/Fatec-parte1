@@ -145,7 +145,7 @@ nav a:hover::before {
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    width: 150px;
+    width: 250px;
     height: 150px;
 } 
 
@@ -172,18 +172,18 @@ nav a:hover::before {
   .imgthree {
     position:fixed;
     top:50%;
-    left:35%;
+    left:25%;
     transform: translate(-50%, -50%);
-    width: 150px;
+    width: 250px;
     height: 150px;
 }  
 
 .imgfour {
     position:fixed;
     top:50%;
-    left:65%;
+    left:75%;
     transform: translate(-50%, -50%);
-    width: 150px;
+    width: 250px;
     height: 150px;
 }  
 
